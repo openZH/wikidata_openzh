@@ -1,0 +1,6 @@
+SELECT ?itemDescription ?item ?Gemeindenummer_in_der_Schweiz ?itemLabel WHERE {
+?item wdt:P771 ?coord.
+SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+?item wdt:P31 wd:Q70208.
+OPTIONAL { ?item wdt:P771 ?Gemeindenummer_in_der_Schweiz. }
+?item wdt:P131 wd:Q11943.
