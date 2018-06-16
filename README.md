@@ -1,4 +1,4 @@
-# Wikidata Datathon 16.6.2017
+# Wikidata Datathon 16.6.2018
 
 At the Wikidata-Datathon OpenZH has aimed at injecting population figures of the municipalities of the canton of Zurich in Wikidata.
 
